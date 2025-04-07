@@ -1,3 +1,4 @@
+#!/bin/bash
 kill_server() {
   if pkill -9 php; then
     echo -e "\033[32m\t\t⟨ Server Killed ⟩\033[0m"
